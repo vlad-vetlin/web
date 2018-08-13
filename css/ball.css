@@ -1,0 +1,260 @@
+ball {
+    position: absolute;
+    display: block;
+    background-color: #D94EB1;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 50%;
+    z-index: 60000;
+}
+
+#ball {
+    margin-left: 27%;
+    -webkit-animation-name: jumping0;
+    -webkit-animation-duration: 0.8s;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-timing-function: cubic-bezier(0.6,0.08,0.8,0.6);
+    -webkit-animation-iteration-count: infinite;
+}
+
+@keyframes jumping0 {
+    from {
+        margin-top: 50%;
+    }
+    to {
+        margin-top: 79%;
+    }
+}
+
+@-webkit-keyframes jumping0 {
+    from {
+        margin-top: 50%;
+    }
+    to   {
+        margin-top: 79%;
+    }
+}
+
+@keyframes jumping1 {
+    from {
+        margin-top: 55%;
+    }
+    to {
+        margin-top: 76%;
+    }
+}
+
+@-webkit-keyframes jumping1 {
+    from {
+        margin-top: 55%;
+    }
+    to   {
+        margin-top: 76%;
+    }
+}
+
+@keyframes jumping2 {
+    from {
+        margin-top: 55%;
+    }
+    to {
+        margin-top: 75%;
+    }
+}
+
+@-webkit-keyframes jumping2 {
+    from {
+        margin-top: 55%;
+    }
+    to   {
+        margin-top: 75%;
+    }
+}
+@keyframes jumping3 {
+    from {
+        margin-top: 55%;
+    }
+    to {
+        margin-top: 74%;
+    }
+}
+
+@-webkit-keyframes jumping3 {
+    from {
+        margin-top: 55%;
+    }
+    to   {
+        margin-top: 74%;
+    }
+}
+@keyframes jumping4 {
+    from {
+        margin-top: 55%;
+    }
+    to {
+        margin-top: 71%;
+    }
+}
+
+@-webkit-keyframes jumping4 {
+    from {
+        margin-top: 55%;
+    }
+    to   {
+        margin-top: 71%;
+    }
+}
+@keyframes jumping5 {
+    from {
+        margin-top: 55%;
+    }
+    to {
+        margin-top: 69%;
+    }
+}
+
+@-webkit-keyframes jumping5 {
+    from {
+        margin-top: 55%;
+    }
+    to   {
+        margin-top: 69%;
+    }
+}
+@keyframes jumping6 {
+    from {
+        margin-top: 50%;
+    }
+    to {
+        margin-top: 66%;
+    }
+}
+
+@-webkit-keyframes jumping6 {
+    from {
+        margin-top: 50%;
+    }
+    to   {
+        margin-top: 66%;
+    }
+}
+@keyframes jumping7 {
+    from {
+        margin-top: 45%;
+    }
+    to {
+        margin-top: 63%;
+    }
+}
+
+@-webkit-keyframes jumping7 {
+    from {
+        margin-top: 45%;
+    }
+    to   {
+        margin-top: 63%;
+    }
+}
+@keyframes jumping8 {
+    from {
+        margin-top: 40%;
+    }
+    to {
+        margin-top: 60%;
+    }
+}
+
+@-webkit-keyframes jumping8 {
+    from {
+        margin-top: 40%;
+    }
+    to   {
+        margin-top: 60%;
+    }
+}
+@keyframes jumping9 {
+    from {
+        margin-top: 40%;
+    }
+    to {
+        margin-top: 57%;
+    }
+}
+
+@-webkit-keyframes jumping9 {
+    from {
+        margin-top: 40%;
+    }
+    to   {
+        margin-top: 57%;
+    }
+}
+@keyframes jumping10 {
+    from {
+        margin-top: 35%;
+    }
+    to {
+        margin-top: 54%;
+    }
+}
+
+@-webkit-keyframes jumping10 {
+    from {
+        margin-top: 35%;
+    }
+    to   {
+        margin-top: 54%;
+    }
+}
+@keyframes jumping11 {
+    from {
+        margin-top: 35%;
+    }
+    to {
+        margin-top: 51%;
+    }
+}
+
+@-webkit-keyframes jumping11 {
+    from {
+        margin-top: 35%;
+    }
+    to   {
+        margin-top: 51%;
+    }
+}
+@keyframes jumping12 {
+    from {
+        margin-top: 35%;
+    }
+    to {
+        margin-top: 48%;
+    }
+}
+
+@-webkit-keyframes jumping12 {
+    from {
+        margin-top: 35%;
+    }
+    to   {
+        margin-top: 48%;
+    }
+}
+@keyframes jumping13 {
+    from {
+        margin-top: 15%;
+    }
+    to {
+        margin-top: 33%;
+    }
+}
+
+@-webkit-keyframes jumping13 {
+    from {
+        margin-top: 15%;
+    }
+    to   {
+        margin-top: 33%;
+    }
+}

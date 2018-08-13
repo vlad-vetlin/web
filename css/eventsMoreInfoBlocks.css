@@ -1,0 +1,20 @@
+#hider {
+    position: absolute;
+    z-index: 10000;
+    font-size: 100px;
+    background-color: #d1307e;
+    width: 100%;
+}
+#hider:checked + .content {
+    display: block;
+}
+#clickme {
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+}
+
+.content {
+    margin-top: 10px;
+    display: none;
+}

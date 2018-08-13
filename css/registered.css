@@ -1,0 +1,105 @@
+* {
+    font-family: Helvetica;
+    font-color: #2D1E44;
+}
+
+#deskOfEventsInButton {
+    color: #f7c92f;
+}
+
+#deskOfEventsInButton:hover {
+    color: white;
+}
+
+.enter {
+    z-index: 20;
+    background-color: transparent;
+    border: none;
+    width: 20%;
+    text-decoration: none;
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 2%;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+button:focus {
+    outline: 0;
+}
+
+#mainBlock {
+    width: 100%;
+    z-index: 10;
+    position: absolute;
+}
+
+.container {
+    position: relative;
+    max-width: 1920px;
+    max-height: 1080px;
+    min-width: 1100px;
+    min-height: 568px;
+}
+
+.container button:hover {
+    outline-color: #2D1E44;
+    color: white;
+    overflow: auto;
+}
+
+#howItWas {
+    font-size: 64px;
+    z-index: 500;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    color: #2D1E44;
+}
+
+#divHIW {
+    position: absolute;
+    margin-top: 75%;
+    width: 100%;
+    background-color: #f7c92f;
+}
+
+body {
+    overflow: auto;
+}
+
+.infoBlock {
+    position: absolute;
+    margin-left: 12%;
+    margin-top: 95%;
+    width: 75%;
+    height: 125%;
+    background-color: #00a3da;
+    z-index: 100000;
+}
+
+.upperBlock {
+    padding: 40px;
+    font-size: 48px;
+    color: white;
+    background-color: #2D1E44;
+}
+
+.lowerBlock {
+    padding: 40px;
+    padding-bottom: 20px;
+    font-size: 16px;
+    background-color: white;
+    color: #2D1E44;
+    border: 10px solid #d1307e;
+}
+
+p {
+    text-indent: 15px;
+    margin-top: 0.5em; /* Отступ сверху */
+    margin-bottom: 0.5em; /* Отступ снизу */
+}
+
+#infoBlock0 {
+    display: none;
+}

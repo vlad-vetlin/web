@@ -1,0 +1,29 @@
+
+#background_eventdesk
+{
+    z-index: 10;
+    margin-top: -10%;
+    width: 90%;
+    position: absolute;
+    overflow: auto;
+}
+#pins
+{
+    z-index: 30;
+    position: absolute;
+    margin-top: 6%;
+    width: 80%;
+    margin-left: 20%;
+}
+.wrapper
+{
+    z-index: 20;
+    margin-top: 6%;
+    margin-left: 7%;
+    position: absolute;
+}
+.slider
+{
+    z-index: 20;
+    position: absolute;
+}

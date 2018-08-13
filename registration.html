@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+
+    <link rel="stylesheet" href="css/registration.css">
+    <link rel="stylesheet" href="css/textResizingForFields.css">
+    <link rel="stylesheet" href="css/ball.css">
+</head>
+<body>
+<script src='js/ball.js'></script>
+
+<div class = "container">
+    <img src="source/background_registration2.png" id = "mainBlock">
+
+    <button type="button" id="go">
+        <div class = "textInButton">
+            Зарегистрироваться
+        </div>
+    </button>
+
+    <div class = "fields">
+    <table id = "registrationFields">
+        <tr>
+            <td>
+                <span class="fieldsName">ФИО</span>
+                <input onchange="howManyFieldsAreAlreadyFilled()" id="name" type="text" style="width: 75%" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="fieldsName">ФОТО</span>
+                <input onchange="howManyFieldsAreAlreadyFilled()" type="file" id="photo" style="display: none"/ required>
+                <label for="photo"><img src="source/addPhotoButton.png"></label>
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="fieldsName">ДАТА РОЖДЕНИЯ</span>
+                <input onchange="howManyFieldsAreAlreadyFilled()" id="date" type="date" name="calendar" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="fieldsName">ТЕЛЕФОН</span>
+                <input onchange="howManyFieldsAreAlreadyFilled()" id="phone" type="tel" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="fieldsName">ПОЧТА</span>
+                <input onchange="howManyFieldsAreAlreadyFilled()" id="email" type="email" name="email" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="fieldsName">СОЦИАЛЬНЫЕ СЕТИ</span>
+                <input onchange="howManyFieldsAreAlreadyFilled()" id="social" type="text" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="fieldsName">ВУЗ</span>
+                <select onchange="howManyFieldsAreAlreadyFilled()" id="uni">
+                    <option selected></option>
+                    <option>ВШЭ</option>
+                    <option>МГУ</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="fieldsName">КУРС</span>
+                <select onchange="howManyFieldsAreAlreadyFilled()" id="course">
+                    <option selected></option>
+                    <option>1 курс</option>
+                    <option>2 курс</option>
+                    <option>3 курс</option>
+                    <option>4 курс</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="fieldsName">СТАТУС</span>
+                <select onchange="howManyFieldsAreAlreadyFilled()" id="status">
+                    <option selected></option>
+                    <option>Победитель</option>
+                    <option>Призер</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="fieldsName">АДРЕС РЕГИСТРАЦИИ</span>
+                <input onchange="howManyFieldsAreAlreadyFilled()" id="address1" type="text" style="width: 30%" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="fieldsName">АДРЕС ПРОЖИВАНИЯ</span>
+                <input onchange="howManyFieldsAreAlreadyFilled()" id="address2" type="text" style="width: 30%" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="fieldsName" style="background-color: #f7c92f">ЧЛЕНСТВО <br>В ОБЩЕСТВЕННЫХ ОРГАНИЗАЦИЯХ</span>
+                <br><textarea onchange="howManyFieldsAreAlreadyFilled()" id="org" rows="2" cols="45" name="text" required></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="fieldsName" style="background-color: #f7c92f">ХОББИ</span>
+                <br><textarea onchange="howManyFieldsAreAlreadyFilled()" id="hobbies" rows="2" cols="45" name="text" required></textarea>
+            </td>
+        </tr>
+    </table>
+    </div>
+
+    <ball id="ball"></ball>
+
+    <img src="source/stairs.png" id="ladder">
+</div>
+
+</body>
+</html>

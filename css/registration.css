@@ -1,0 +1,126 @@
+* {
+    font-family: "Helvetica Neue";
+}
+
+#mainBlock {
+    z-index: 10;
+    position: absolute;
+    margin-left: 15%;
+    width: 70%;
+}
+
+
+.container {
+    position: relative;
+    max-width: 1920px;
+    max-height: 1080px;
+    min-width: 1100px;
+    min-height: 568px;
+}
+
+button:focus {
+    outline: 0;
+}
+
+#go {
+    color: white;
+    z-index: 20;
+    background-color: transparent;
+    border: none;
+    width: 20%;
+    text-decoration: none;
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 69%;
+    font-weight: bold;
+    text-transform: uppercase;
+    z-index: 50000;
+}
+
+#go:hover {
+    color: #f7c92f;
+}
+
+.container button:hover {
+    outline-color: #2D1E44;
+    color: white;
+    overflow: auto;
+}
+
+#registrationFields {
+    position: absolute;
+    margin-left: 43%;
+    margin-top: 25%;
+    z-index: 400;
+}
+
+textarea {
+    resize: none;
+    outline: none;
+    -moz-appearance: none;
+    border: 2px solid #2D1E44;
+    background-color: #00a3da;
+    font-family: "Helvetica Neue";
+    color: #2D1E44;
+    font-weight: bold;
+}
+
+input {
+    outline: none;
+    -moz-appearance: none;
+    border: 2px solid #2D1E44;
+    background-color: #00A3DA;
+    font-family: "Helvetica Neue";
+    padding: 0.3em;
+    font-weight: bold;
+    color: white;
+}
+
+.fieldsName {
+    font-weight: bold;
+    padding-right: 2%;
+}
+
+select {
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 2px solid #2D1E44;
+    background-color: #00A3DA;
+    font-family: "Helvetica Neue";
+    padding: 0.3em;
+    color: #2D1E44;
+    font-weight: bold;
+    width: 30%;
+    border-radius: 0;
+    background: url("../source/arrow.png") 98% no-repeat #f7c92f ;
+}
+
+
+/* CAUTION: IE hackery ahead */
+
+select::-ms-expand {
+    display: none; /* remove default arrow in IE 10 and 11 */
+}
+
+/* target Internet Explorer 9 to undo the custom arrow */
+@media screen and (min-width:0\0) {
+    select {
+        background:none\9;
+        padding: 5px\9;
+    }
+}
+
+#photo {
+    background-color: transparent;
+    border: none;
+}
+
+#ladder {
+    position: absolute;
+    z-index: 300;
+    width: 80%;
+    margin-left: 20%;
+    margin-top: 37%;
+}
